@@ -1,0 +1,181 @@
+learning_rate: 0.001 num_epochs: 100 alpha: 0.1 Temp: 4 batch_size: 64
+handling participant: fold1
+Loading checkpoint './Cnn14_16k_mAP=0.438.pth' to map_location='cuda'
+Loading checkpoint './Cnn14_16k_mAP=0.438.pth' to map_location='cuda' with weights_only=False
+GPU number: 1
+Loading checkpoint './Cnn14_16k_mAP=0.438.pth' to map_location='cuda'
+Loading checkpoint './Cnn14_16k_mAP=0.438.pth' to map_location='cuda' with weights_only=False
+training and val size (model sr: 2000): (1600, 80000) (400, 80000) (1600,)
+[Epoch 0]
+Train loss: 27.947050094604492
+Test loss: 4.1248345375061035
+TEST average_precision: 0.002948703805846663
+TEST average recall: 0.025
+TEST average f1: 0.004543752543752544
+[Epoch 1]
+Train loss: 24.949216842651367
+Test loss: 3.7434744834899902
+TEST average_precision: 0.010559488573442062
+TEST average recall: 0.0525
+TEST average f1: 0.01587133516993664
+[Epoch 2]
+Train loss: 26.21807861328125
+Test loss: 2.8734517097473145
+TEST average_precision: 0.18000547293095107
+TEST average recall: 0.1875
+TEST average f1: 0.14180771984634816
+[Epoch 3]
+Train loss: 16.272653579711914
+Test loss: 3.099788188934326
+TEST average_precision: 0.3776757165379756
+TEST average recall: 0.35
+TEST average f1: 0.3089425442031199
+[Epoch 4]
+Train loss: 15.104568481445312
+Test loss: 2.045626163482666
+TEST average_precision: 0.4102973859473859
+TEST average recall: 0.415
+TEST average f1: 0.36905286663800596
+[Epoch 5]
+Train loss: 10.160009384155273
+Test loss: 1.7658253908157349
+TEST average_precision: 0.5127627655568832
+TEST average recall: 0.4525
+TEST average f1: 0.4352746248763277
+[Epoch 6]
+Train loss: 7.939844608306885
+Test loss: 1.1032012701034546
+TEST average_precision: 0.5455566408995202
+TEST average recall: 0.5475
+TEST average f1: 0.5193526710544237
+[Epoch 7]
+Train loss: 5.500161647796631
+Test loss: 0.8349867463111877
+TEST average_precision: 0.6286418581418581
+TEST average recall: 0.605
+TEST average f1: 0.592877335979705
+[Epoch 8]
+Train loss: 4.6552534103393555
+Test loss: 0.5514214038848877
+TEST average_precision: 0.6112197834844895
+TEST average recall: 0.62
+TEST average f1: 0.5943533598496447
+[Epoch 9]
+Train loss: 4.545016288757324
+[Epoch 10]
+Train loss: 3.8192508220672607
+[Epoch 11]
+Train loss: 2.9782097339630127
+Test loss: 0.9026103019714355
+TEST average_precision: 0.6265492318139377
+TEST average recall: 0.6425
+TEST average f1: 0.617916844180931
+[Epoch 12]
+Train loss: 2.779778242111206
+[Epoch 13]
+Train loss: 3.0652432441711426
+Test loss: 0.849424421787262
+TEST average_precision: 0.6639502600269864
+TEST average recall: 0.645
+TEST average f1: 0.6297430705036375
+[Epoch 14]
+Train loss: 2.284207344055176
+Test loss: 0.7646709084510803
+TEST average_precision: 0.6638163780663779
+TEST average recall: 0.65
+TEST average f1: 0.6271712104918459
+[Epoch 15]
+Train loss: 2.5248501300811768
+[Epoch 16]
+Train loss: 2.077848196029663
+Test loss: 0.5864261984825134
+TEST average_precision: 0.6712158397158396
+TEST average recall: 0.68
+TEST average f1: 0.6585866699744072
+[Epoch 17]
+Train loss: 2.055500030517578
+[Epoch 18]
+Train loss: 1.7755547761917114
+[Epoch 19]
+Train loss: 2.2606871128082275
+[Epoch 20]
+Train loss: 2.1653037071228027
+[Epoch 21]
+Train loss: 1.630533218383789
+[Epoch 22]
+Train loss: 1.4065262079238892
+[Epoch 23]
+Train loss: 1.7740674018859863
+[Epoch 24]
+Train loss: 1.737430214881897
+Test loss: 0.6236187219619751
+TEST average_precision: 0.6841170039111215
+TEST average recall: 0.6825
+TEST average f1: 0.662612963363643
+[Epoch 25]
+Train loss: 1.7986562252044678
+[Epoch 26]
+Train loss: 1.6418849229812622
+[Epoch 27]
+Train loss: 1.4320530891418457
+[Epoch 28]
+Train loss: 1.5271965265274048
+[Epoch 29]
+Train loss: 1.0853427648544312
+[Epoch 30]
+Train loss: 1.4559539556503296
+[Epoch 31]
+Train loss: 1.256415843963623
+Test loss: 0.7130025029182434
+TEST average_precision: 0.6769128469569645
+TEST average recall: 0.685
+TEST average f1: 0.6605345934079679
+[Epoch 32]
+Train loss: 1.4345062971115112
+Test loss: 0.41535210609436035
+TEST average_precision: 0.6725431790431791
+TEST average recall: 0.6875
+TEST average f1: 0.663242097868629
+[Epoch 33]
+Train loss: 1.1348350048065186
+[Epoch 34]
+Train loss: 1.3931736946105957
+[Epoch 35]
+Train loss: 1.4881680011749268
+Test loss: 0.49962931871414185
+TEST average_precision: 0.7094952824952824
+TEST average recall: 0.705
+TEST average f1: 0.6897509874998096
+[Epoch 36]
+Train loss: 1.4645580053329468
+[Epoch 37]
+Train loss: 1.177135705947876
+[Epoch 38]
+Train loss: 1.2865556478500366
+[Epoch 39]
+Train loss: 1.3948349952697754
+Test loss: 0.5476839542388916
+TEST average_precision: 0.7119512987012988
+TEST average recall: 0.7125
+TEST average f1: 0.6992057160246012
+[Epoch 40]
+Train loss: 1.0763877630233765
+[Epoch 41]
+Train loss: 1.1539450883865356
+[Epoch 42]
+Train loss: 1.2693634033203125
+[Epoch 43]
+Train loss: 1.0744361877441406
+[Epoch 44]
+Train loss: 1.2063151597976685
+[Epoch 45]
+Train loss: 1.063352346420288
+[Epoch 46]
+Train loss: 1.1837764978408813
+[Epoch 47]
+Train loss: 1.114408016204834
+[Epoch 48]
+Train loss: 0.9785349369049072
+[Epoch 49]
+Train loss: 1.0393604040145874
+Finished Training
